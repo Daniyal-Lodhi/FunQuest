@@ -9,6 +9,7 @@ import animals from '../assets/animal-kingdom.png'
 import Footer from './Footer'
 import AOS from "aos";
 import "aos/dist/aos.css"; 
+import { Link } from 'react-router-dom'
 
 
 
@@ -73,25 +74,25 @@ const Home = () => {
             INTERACTIVE GAMES FOR ENHANCED LEARNING
           </div>
           {/* wefeefwweg */}
-          <div  className='flex flex-col sm:flex-row w-[90%] space-y-5 sm:space-y-0 sm:space-x-10 justify-center items-center'>
-            <div data-aos="fade-right" data-aos-duration="1000" className=' sm:w-[30%] flex-col items-center  p-5 pb-7 border-2  D-bgopacityseablue border-gray-600 rounded-3xl'>
+          <button  className='flex flex-col sm:flex-row w-[90%] space-y-5 sm:space-y-0 sm:space-x-10 justify-center items-center'>
+            <Link to='/game#penguin' data-aos="fade-right" data-aos-duration="1000" className='cursor-pointer sm:w-[30%] flex-col items-center  p-5 pb-7 border-2  D-bgopacityseablue border-gray-600 rounded-3xl'>
               <img src={penguinn} alt=""  className='sm:w-64 w-48' />
              
               <h1 className='mt-5 text-center text-[30px] sm:text-[40px] D-sacram'>icy penguin stack</h1>
-            </div>
+            </Link>
 
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" className='sm:w-[30%] flex-col items-center   p-5 pb-7 border-2  D-bgopacityyellow border-gray-600 rounded-3xl'>
+            <a data-aos="fade-right" data-aos-duration="1000"  data-aos-delay="500" className='cursor-pointer sm:w-[30%] flex-col items-center   p-5 pb-7 border-2  D-bgopacityyellow border-gray-600 rounded-3xl'>
               <img src={owl} alt=""   className='mx-auto sm:w-32 sm:h-44 h-48 w-48 ' />
               
               <h1 className='mt-5 text-center text-[30px] sm:text-[40px] D-sacram'>wise lab owls</h1>
-            </div>
+            </a>
 
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" className='sm:w-[30%]  p-5 pb-7 border-2  D-bgopacitypink border-gray-600 rounded-3xl'>
+            <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" className='cursor-pointer sm:w-[30%]  p-5 pb-7 border-2  D-bgopacitypink border-gray-600 rounded-3xl'>
               <img src={mouse} alt=""  className='mx-auto sm:w-40 h-26   w-48' />
 
               <h1 className='mt-5 text-center text-[30px] sm:text-[40px] D-sacram'>math magician mousy</h1>
-            </div>
-          </div>
+            </a>
+          </button>
         </div>
 
          
