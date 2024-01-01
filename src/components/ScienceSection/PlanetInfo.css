@@ -1,7 +1,7 @@
 .HMainPlanetInfoGrid{
     display: grid;
     grid-template-columns: 33vw 33vw 34vw;
-    grid-template-rows: 120vh;
+    grid-template-rows: 110vh;
     background-image: url("../../assets/planetinfobg.png");
     background-position: center center;
     background-repeat: repeat;
@@ -67,14 +67,14 @@
 }
 #Hsaturndesc:hover{
     background-color: #2a807b;
-    color:white;
+    /* color:white; */
 }
 #Hjupiterdesc{
     background-color: #fecf64;
 }
 #Hjupiterdesc:hover{
     background-color: #c98d03;
-    color:white;
+    /* color:white; */
 
 }
 
@@ -83,7 +83,7 @@
 }
 #Huranusdesc:hover{
     background-color: #7e1251;
-    color:white;
+    /* color:white; */
 }
 
 @media screen and (max-width:1024px) {

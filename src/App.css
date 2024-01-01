@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 
-
-*{
-    /* border: 1px solid #000 !important    ; */
-}
 .D-homebg1{
     background-image: url('./assets/bg-home.png');
     background-size: cover;
@@ -27,10 +23,42 @@
     background-image: url('./assets/gamebg1.png');
     background-size:cover;
 }
+
 .D-gamebg2{
     background-image: url('./assets/gamebg2.png');
     background-size:cover;
 }
+.D-gamebg3{
+    background-image: url('./assets/gamebg3.png');
+    background-size:cover;
+}
+.D-gamebg4{
+    background-image: url('./assets/gamebg4.png');
+    background-size:cover;
+}
+.D-mahams1{
+    background-image: url('./assets/mahambg1.png');
+    background-size:cover;
+}
+.D-mahams2a{
+    background-image: url('./assets/mahambg2a.png');
+    background-size:cover;
+}
+.D-mahams2b{
+    background-image: url('./assets/mahambg2b.png');
+    background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .D-bgopacityseablue{
     background-color:rgba(107, 253, 229, 0.495);

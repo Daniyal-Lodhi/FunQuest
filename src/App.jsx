@@ -15,22 +15,36 @@ import ArtMain from "./Components/ArtFirst";
 import Art from "./Components/Artpage";
 import Ocean from "./Components/Ocean";
 import Education from "./Components/Edu";
+import Mahamscreen1 from "./components/Mahamscreen1";
+import Mahamscreen2 from "./components/Mahamscreen2";
 import Science from "./Components/SciencePage";
-import Math from "./components/MathSection/Math";
+// import Math from "./components/MathSection/Math";
 import MainScience from "./components/ScienceSection/Science";
+import PlanetInfo from "./components/ScienceSection/PlanetInfo";
+import ScienceFunFact from "./components/ScienceSection/ScienceFunFact";
+import MathLesson01 from "./components/MathSection/MathLesson01";
+import MathLanding from "./components/MathSection/MathLanding";
 function App() {
   return (
     <>
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" Component={Home} />
+          <Route path="/home" Component={Home} />
           <Route path="/game" Component={Game} />
           <Route path="/Signup" element={<Signup />} />
-          <Route path="/Login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           {/* Art and craft main page */}
-          <Route path="/ArtMain" element={<ArtMain />} />
-          <Route path="/art" element={<Art />} />
+          {/* <Route path="/ArtMain" element={<ArtMain />} /> */}
+          <Route
+            path="/art"
+            element={
+              <>
+                <ArtMain />
+                <Art />
+              </>
+            }
+          />
           <Route path="/ocean" element={<Ocean />} />
 
           {/* Education section Mainpage */}
@@ -47,9 +61,21 @@ function App() {
           {/* Upcoming Courses page */}
           <Route path="/Education" element={<Education />} />
 
+          {/* <Route path="/mahams1" Component={Mahamscreen1} /> */}
+          <Route path="/mathlesson" element={<MathLesson01 />} />
+          <Route path="/mathtest" element={<Mahamscreen1 />} />
           <Route path="/Science" element={<MainScience />} />
+          <Route
+            path="/SolarSystem"
+            element={
+              <>
+                <ScienceFunFact />
+                <PlanetInfo />
+              </>
+            }
+          />
 
-          <Route path="/Math" element={<Math />} />
+          <Route path="/Math" element={<MathLanding />} />
         </Routes>
       </Router>
     </>

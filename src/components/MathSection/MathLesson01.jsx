@@ -3,6 +3,7 @@ import board from "../../assets/mathBoard.png";
 import cloud from "../../assets/lessonCloud.png";
 import teacher from "../../assets/teacher.png";
 import "./MathLesson01.css";
+import { Link } from "react-router-dom";
 // import "animate.css";
 function MathLesson01() {
   return (
@@ -12,9 +13,9 @@ function MathLesson01() {
       </h1>
       <div className="HLessonFlex">
         <img src={teacher} alt="teacher" id="teacher" />
-        <button id="Hlesson01btn" className="animate__bounceIn">
+        <Link id="Hlesson01btn" to="/mathtest">
           Take Test!
-        </button>
+        </Link>
       </div>
     </div>
   );

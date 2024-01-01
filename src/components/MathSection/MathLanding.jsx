@@ -11,19 +11,19 @@ function MathLanding() {
   return (
     <div className="MathMainGrid">
       <div className="MathLandingLeft">
-        <Link id="add" to="/lesson01" className="HMathDivs">
+        <Link id="add" to="/mathlesson" className="HMathDivs">
           <img src={add} id="MathAddImg" />
           <button className="HMathButtons">Addition</button>
         </Link>
-        <Link id="multiply" to="/multiply" className="HMathDivs">
+        <Link id="multiply" to="/mathlesson" className="HMathDivs">
           <img src={mult} id="MathMultImg" />
           <button className="HMathButtons">Multiplication</button>
         </Link>
-        <Link id="subtract" to="/subtract" className="HMathDivs">
+        <Link id="subtract" to="/mathlesson" className="HMathDivs">
           <img src={sub} id="MathMultImg" />
           <button className="HMathButtons">Subtraction</button>
         </Link>
-        <Link id="divide" to="/Divide" className="HMathDivs">
+        <Link id="divide" to="/mathlesson" className="HMathDivs">
           <img src={divide} id="MathDivImg" />
           <button className="HMathButtons" id="MathDivideBtn">
             Division

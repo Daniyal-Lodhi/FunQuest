@@ -4,6 +4,7 @@ import math from "../assets/math.png";
 import EduMath from "../assets/EduMath.png";
 import PinkButton from "./button";
 import "./Edu.css";
+import { Link } from "react-router-dom";
 
 const MathPageMain = () => {
   return (
@@ -17,7 +18,9 @@ const MathPageMain = () => {
               sessions, and activities that ignite curiosity and instill a
               lifelong passion for exploring through the written word.
             </p>
-            <PinkButton />
+            <Link to="/math">
+              <PinkButton />
+            </Link>
           </div>
           <div className="EduMathPic">
             <img src={EduMath} alt="drawing pic" className="EduMath-image" />
