@@ -1,6 +1,6 @@
 import React from "react";
-import earth from "../assets/earth.png";
-import saturn from "../assets/saturn.png";
+import earth from "../assets/earth1.png";
+import saturn from "../assets/saturn1.png";
 import moon from "../assets/moon.png";
 import mars from "../assets/mars.png";
 import { FaClock } from "react-icons/fa";

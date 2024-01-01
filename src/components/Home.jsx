@@ -31,15 +31,14 @@ const Home = () => {
               We work everyday to build the foundations for amazing futures.
               Both for the child and for our community .
             </p>
-
+<Link to="/education" >
             <button
-              onClick={() => {
-                window.location.href = "/education";
-              }}
+             
               className="D-glacialFont bg-rose-600 text-white py-2 px-5 rounded-md text-lg sm:text-2xl mt-4 "
             >
               Read More
             </button>
+            </Link>
           </div>
           {/* bear div */}
           <div data-aos="fade-left" data-aos-duration="1000">
@@ -66,7 +65,7 @@ const Home = () => {
               WHERE CUROSITY COLLIDES WITH DISCOVERY{" "}
             </p>
             <Link
-              to="/science"
+              to="/sciencea"
               className="D-glacialFont py-2 px-7 text-lg sm:text-2xl rounded-md text-white bg-rose-600"
             >
               EXPLORE
@@ -86,7 +85,7 @@ const Home = () => {
               THRILLING TALE OF MATHEMATICAL MASTERY
             </p>
             <Link
-              to="/math"
+              to="/matha"
               className="D-glacialFont py-2 px-7 text-lg sm:text-2xl rounded-md text-white bg-rose-600"
             >
               EXPLORE
@@ -105,14 +104,14 @@ const Home = () => {
             INTERACTIVE GAMES FOR ENHANCED LEARNING
           </div>
           {/* wefeefwweg */}
-          <button className="flex flex-col sm:flex-row w-[90%] space-y-5 sm:space-y-0 sm:space-x-10 justify-center items-center">
+          <button className="flex  flex-col sm:flex-row w-[90%] space-y-5 sm:space-y-0 sm:space-x-10 justify-center items-center">
             <Link
-              to="/game#penguin"
+              to="/game"
               data-aos="fade-right"
               data-aos-duration="1000"
               className="cursor-pointer sm:w-[30%] flex-col items-center  p-5 pb-7 border-2  D-bgopacityseablue border-gray-600 rounded-3xl"
             >
-              <img src={penguinn} alt="" className="sm:w-64 w-48" />
+              <img src={penguinn} alt="" className="sm:w-48 w-48 mx-auto" />
 
               <h1 className="mt-5 text-center text-[30px] sm:text-[40px] D-sacram">
                 icy penguin stack

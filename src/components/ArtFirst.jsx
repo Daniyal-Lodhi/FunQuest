@@ -14,14 +14,15 @@ const ArtMain = () => {
                 Craft section, where every brushstroke and crafty creation tells
                 a unique story.
               </p>
-              <Link to="/art">
+              <a href="#a1">
                 <PinkButton />
-              </Link>
+              </a>
             </div>
             <div className="ArtMainDiv">
               <img src={tiger} alt="tiger pic" className="ArtMainPic" />
             </div>
           </div>
+          <div id="a1"></div>
         </div>
       </>
     );

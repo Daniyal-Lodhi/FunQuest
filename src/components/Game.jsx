@@ -18,7 +18,7 @@ const game = () => {
                     <div className='flex-col sm:justify-start sm:items-start flex w-[80%] space-y-8 sm:space-y-3 justify-center items-center'>
                         <h1 className='text-[50px] D-lazydog    font-bold text-center'>GAMES</h1>
                         <p className='text-xl text-center sm:text-start D-futura'>These courses are designed to be interactive, often using games, puzzles, and visual aids to engage young learners and foster a strong understanding of mathematical concepts. </p>
-                        <button className='D-glacialFont bg-rose-600 text-white py-2 px-5 rounded-md text-lg sm:text-2xl mt-4 mx-auto sm:mx-0 '>Explore</button>
+                        <a href="#games" className='D-glacialFont bg-rose-600 text-white py-2 px-5 rounded-md text-lg sm:text-2xl mt-4 mx-auto sm:mx-0 '>Explore</a>
 
                     </div>
                     <div className='flex justify-end w-full'>
@@ -29,7 +29,7 @@ const game = () => {
             </div>
 
             {/* div 2 */}
-            <div  className='D-gamebg2 h-auto  pt-10 sm:py-20' >
+            <div  className='D-gamebg2 h-auto  pt-10 sm:py-20' id='games' >
                 <div className='flex sm:flex-row flex-col space-y-3 justify-center sm:justify-center sm:space-x-56  items-center sm:w-[100%] sm:mx-auto sm:pl-14'>
                     <div className='flex flex-col justify-start items-center sm:items-start space-y-4 '>
                         <img src={nerd} alt="" className='w-52 sm:w-60' />
@@ -61,7 +61,7 @@ const game = () => {
                 </div>
             </div>
             {/* div 4 */}
-            <div className='D-gamebg4 h-auto py-16'>
+            <div className='D-gamebg4 h-auto py-16' id='owl'>
                 <div className='flex flex-col sm:flex-row sm:w-[90%] sm:mx-auto space-y-8 items-center justify-center'>
                     <div className='flex flex-col space-y-4 mt-12 w-[90%]'>
                         <h1 className='text-center  sm:text-left text-4xl font-bold D-lazydog sm:text-[50px]'>WISE LAB OWLS</h1>

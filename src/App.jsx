@@ -75,7 +75,11 @@ function App() {
             }
           />
 
-          <Route path="/Math" element={<MathLanding />} />
+<Route path="/sciencea" element={<Science />} />
+<Route path="/matha" element={<MathPage />} />
+<Route path="/Math" element={<MathLanding />} />
+<Route path="/Math" element={<MathLanding />} />
+<Route path="/arta" element={<Art />} />
         </Routes>
       </Router>
     </>
