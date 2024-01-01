@@ -1,0 +1,50 @@
+.HLesson01Outer{
+    background-image: url('../../assets/lesson01Bg.png');
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* height:auto; */
+}
+.HLessonFlex{
+    position: relative;
+}
+
+#Hlesson01head{
+    text-decoration: 0.9vh underline yellow;
+    font-size: clamp(9vh,2.2rem,9vh);
+    margin: 0 auto;
+    text-align: center;
+}
+#teacher{
+    margin: 0 auto;
+    width: 85vw;
+    height: 85vh;
+    float:left;
+}
+#Hlesson01btn{
+    position: absolute;
+    padding:10px 50px;
+    top:72vh;
+    right:11vw;
+    text-wrap: nowrap;
+    background-color: rgb(34, 149, 202);
+    border-radius: 20px;
+}
+
+@media screen and (max-width:650px) {
+    #Hlesson01btn{
+        padding:10px 25px;
+        right:7vw;
+
+    }
+}
+
+@media screen and (max-width:400px) {
+    #Hlesson01btn{
+        padding:10px 15px;
+        right:4vw;
+    }
+}

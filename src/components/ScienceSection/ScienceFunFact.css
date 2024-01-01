@@ -1,0 +1,152 @@
+/* *{
+    border:2px solid red;
+} */
+.HFunFactOuter{
+    display: grid;
+    width:100vw;
+    grid-template-columns: 42vw 25vw 32vw;
+    grid-template-rows: 50vh 50vh;
+    background-image: url('../../assets/funFactBg.png');
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin: 0 auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.HFunFactLeft{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    /* margin: 0 auto; */
+
+}
+
+#HfunFactHead{
+    grid-column: 2/3;
+    grid-row:1/2;
+    margin: 0 auto;
+}
+.HFunFactRight{
+    grid-column: 3/4;
+    grid-row:1/3;
+    margin: 0 auto;
+
+}
+#HfactImg{
+    width:90vw;
+    height:90vh;
+    padding-left:120px ;
+    margin:10vh auto;
+    object-position: center;
+    object-fit: cover;
+    overflow: visible;
+}
+#HAstReadImg{
+    padding-top: 120px;
+    width:29vw;
+    height:100vh;
+    /* margin:10vh auto; */
+    /* object-position: left bottom; */
+    object-fit: contain;
+}
+#HfactStars{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width:50vw;
+    height:30vh;
+    margin:10vh auto;
+    object-position: center;
+    object-fit: cover;
+    overflow: visible;
+}
+.HfunFactHeads{
+    color:yellow;
+    padding: 0px;
+    /* padding-left:; */
+    margin: 0 auto;
+    /* font-size:clamp(1em,1.5em,1.6em);
+     */
+    /* font-size:72px; */
+    font-size: clamp(15vh,2rem,15vh);
+
+    /* text-align: center; */
+}
+#HleftHeadFun{
+    padding-top: 19vh;
+    padding-left:10vw;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .HFunFactOuter{
+        display: grid;
+        width:100vw;
+        height:270vh;
+        grid-template-columns: 100vw;
+        grid-template-rows: 90vh 50vh 50vh 40vh;
+    
+    
+    }
+    .HFunFactLeft{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    #HfunFactHead{
+        grid-column: 1/2;
+        grid-row:2/3;
+        margin: 0 auto;
+    }
+    .HFunFactRight{
+        grid-column: 1/2;
+        grid-row:4/5;
+        margin: 0 auto;
+    
+    }
+    #HfactImg{
+        width:350px;
+        height:550px;
+        /* padding-left:120px ; */
+        margin:10vh auto;
+        object-position: center;
+        object-fit: cover;
+        overflow: visible;
+    }
+    #HAstReadImg{
+        /* padding-top: 120px; */
+        width:300px;
+        height:350px;
+        /* margin:10vh auto; */
+        /* object-position: left bottom; */
+        object-fit: cover;
+        overflow: visible;
+    }
+    #HfactStars{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width:50vw;
+        height:30vh;
+        margin:10vh auto;
+        object-position: center;
+        object-fit: cover;
+        overflow: visible;
+    }
+    .HfunFactHeads{
+        color:yellow;
+        padding: 0px;
+        /* padding-left:; */
+        margin: 0 auto;
+        /* font-size:clamp(1em,1.5em,1.6em);
+         */
+        /* font-size:72px; */
+        font-size: clamp(15vh,2rem,15vh);
+    
+        /* text-align: center; */
+    }
+    #HleftHeadFun{
+        padding-top: 9vh;
+        padding-left:10vw;
+    }
+}

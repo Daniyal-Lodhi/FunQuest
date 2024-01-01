@@ -1,0 +1,159 @@
+.HMainPlanetInfoGrid{
+    display: grid;
+    grid-template-columns: 33vw 33vw 34vw;
+    grid-template-rows: 120vh;
+    background-image: url("../../assets/planetinfobg.png");
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* background-repeat: repeat; */
+}
+.HPlanetDesc{
+    display: block;
+    width:26vw;
+    height:56vh;
+    text-align:justify;
+    font-size: clamp(2.7vh,1.2rem,2.7vh);
+    margin: 0 auto;
+    border-radius: 1.2vw;
+    margin-top: 20vh;
+    color:black;
+    padding: 1vw;
+    padding-top: 14vh;
+    overflow: hidden;
+
+}
+.HPlanetInfoHeads{
+    font-size:clamp(8vh,2em,9vh);
+    display:block;
+    background-color: rgb(7, 7, 51);
+    width: 20vw;
+    height: 12vh;
+    margin: 0 auto;
+    border-radius:1.2vw ;
+    border: none;
+    margin-top: 3vh;
+    color:white;
+    text-align: center;
+}
+.HPlanetInfoPics{
+    display: block;
+    width: 36vw;
+    height:37vh;
+    position:absolute;
+    margin: 0 auto;
+} 
+
+.HPlanetInfoSaturn{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.HPlanetInfoJupiter{
+    grid-column: 2/3;
+    grid-row:1/2;
+
+}
+.HPlanetInfoUranus{
+    grid-column:3/4;
+    grid-row: 1/2;
+}
+#Hsaturndesc{
+    background-color: #b3f8f4;
+
+}
+#Hsaturndesc:hover{
+    background-color: #2a807b;
+    color:white;
+}
+#Hjupiterdesc{
+    background-color: #fecf64;
+}
+#Hjupiterdesc:hover{
+    background-color: #c98d03;
+    color:white;
+
+}
+
+#Huranusdesc{
+    background-color: #d566a6;
+}
+#Huranusdesc:hover{
+    background-color: #7e1251;
+    color:white;
+}
+
+@media screen and (max-width:1024px) {
+    .HMainPlanetInfoGrid{
+        width: 100vw;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 110vh 110vh;
+    }
+    .HPlanetInfoHeads{
+        width: 40vw;
+        border-radius: 4.2vw;
+
+    }
+    .HPlanetInfoSaturn{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .HPlanetInfoJupiter{
+        grid-column: 2/3;
+        grid-row:1/2;
+
+    }
+    .HPlanetInfoUranus{
+        grid-column:3/4;
+        grid-row: 2/3;
+    }
+    .HPlanetDesc{
+        width:45vw;
+        height:69vh;
+        margin-top: 20vh;
+        border-radius: 4.2vw;
+
+    }
+    .HPlanetInfoPics{
+        width: 43vw;
+        height:36vh;
+        padding-left: 5vw;
+    } 
+}
+@media screen and (max-width:720px){
+    .HMainPlanetInfoGrid{
+        width: 100vw;
+        grid-template-columns: 100vw;
+        grid-template-rows: 120vh 120vh 120vh;
+    }
+    .HPlanetInfoHeads{
+        width: 80vw;
+        height: 13vh;
+        /* margin-top: 20vh; */
+    }
+    .HPlanetInfoSaturn{
+        grid-row: 1/2;
+    }
+    .HPlanetInfoJupiter{
+        grid-row: 2/3;
+    }
+    .HPlanetInfoUranus{
+        grid-row:3/4;
+    }
+    .HPlanetDesc{
+        width:90vw;
+        height:60vh;
+        margin-top: 20vh;
+        border-radius: 4.2vw;
+
+    }
+    .HPlanetInfoPics{
+        width: 90vw;
+        height:36vh;
+        padding-left: 5vw;
+    } 
+    
+}
